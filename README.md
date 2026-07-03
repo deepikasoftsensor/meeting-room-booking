@@ -185,17 +185,21 @@ npm run dev
 Backend
 
 ```
-PORT=
-MONGODB_URI=
-JWT_SECRET=
-JWT_EXPIRES_IN=
-CLIENT_ORIGIN=
+PORT=5000
+
+MONGODB_URI=mongodb://127.0.0.1:27017/meeting-room-booking
+
+JWT_SECRET=b39f2e5ceeda35ab8af960444a1b776ddc4d18a86afb3fae46f8af2ccf994c183e55919d69251539d6335d48d2039b5ce75e71f4580f8638656500a0932fdc0b
+
+JWT_EXPIRES_IN=7d
+
+CLIENT_ORIGIN=http://localhost:5173
 ```
 
 Frontend
 
 ```
-VITE_API_URL=
+VITE_API_URL=http://localhost:5000/api
 ```
 
 ---
